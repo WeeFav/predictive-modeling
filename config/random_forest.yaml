@@ -1,0 +1,14 @@
+# FIXED
+encoding: ['ordinal']
+max_features: ['sqrt']
+max_depth: [50]
+min_samples_split: [10]
+min_samples_leaf: [4]
+n_estimators: [1000]
+
+# encoding: ['ordinal']
+# max_features: ['sqrt']
+# max_depth: [30, 50]
+# min_samples_split: [5, 10]
+# min_samples_leaf: [1, 4]
+# n_estimators: [600, 1000]

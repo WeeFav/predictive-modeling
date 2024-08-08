@@ -1,0 +1,4 @@
+encoding: ['ordinal'] # 'one hot encoding of high cardinality is too slow'
+weights : ['uniform','distance']
+metric: ['minkowski','euclidean','manhattan']
+n_neighbors_range: 30

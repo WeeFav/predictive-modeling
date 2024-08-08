@@ -1,0 +1,3 @@
+# FIXED
+encoding: ['ordinal', 'target'] # 'one hot encoding of high cardinality is too slow'
+degree: [1, 2] # max is 4 or else not enough memory

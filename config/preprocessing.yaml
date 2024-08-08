@@ -1,0 +1,75 @@
+# filepath: Data_for_SAB104_ML_Simulation.csv
+# input_columns: ['Origin', 'ShipMethod (Group)', 'Destination', 'INCO Terms', 'Ship From Organization Code', 'Ship Method (Order)', 'Ship To Country', 'Ship To State', 'Intmed Ship Location', 'Carrier Name', 'Lane Type', 'Day of Week', 'ASD', 'HOD/POD']
+# output_column: 'Ship Method (Delivery)'
+# date_columns: ['ASD', 'HOD/POD']
+
+# filepath: GTL_WW_SHIPMENT_REPORT_ARCHIVE_202405271232.csv
+# input_columns: ['SHIP_FROM_ORG_CODE',
+#                 'ORDER_TYPE_OU', 'ORDER_TYPE', 'TOP_MODEL_PRODUCT_NUMBER',
+#                 'EXTENDED_SELLING_PRICE_USD', 'REV_BUSINESS_UNIT', 'REV_DIVISION',
+#                 'REV_PRODUCT_LINE', 'INTMED_SHIP_LOCATION', 'SHIP_TO_LOCATION',
+#                 'SHIP_TO_ADDRESS1', 'SHIP_TO_ADDRESS2', 'SHIP_TO_ADDRESS3',
+#                 'SHIP_TO_ADDRESS4', 'SHIP_TO_CITY', 'SHIP_TO_STATE', 'SHIP_TO_COUNTRY',
+#                 'ULTIMATE_DESTINATION_COUNTRY', 'SHIP_TO_CUSTOMER_NAME',
+#                 'SECOND_LANGUAGE_SHIP_TO_CUSTOMER_NAME', 'POD_DATE',
+#                 'SHIP_METHOD', 'INCO_TERMS', 'HEADER_FLOW_STATUS_CODE',
+#                 'LINE_FLOW_STATUS_CODE', 'PAYMENT_TERMS_NAME']
+# output_column: 'OFFSET'
+# date_columns: ['POD_DATE']
+
+# filepath: GTL_STAGED_ISO_ORDER_STATUS_202405270834.csv
+# input_columns: ['SHIP_TO_LOCATION', 'SHIP_FROM_ORG_CODE', 'ORDERED_ITEM',
+#                 'ORDERED_DATE', 'BOOKED_DATE', 'ORDER_TYPE_W_O_OPER_UNIT',
+#                 'ORDER_LINE_NUMBER', 'ORDERED_QUANTITY',
+#                 'SHIPMENT_PRIORITY_CODE', 'SHIPPED_QUANTITY', 'PICK_STATUS', 'SHIP_STATUS',
+#                 'PICK_RELEASE_DATE', 'STATUS']
+# output_column: 'OFFSET'
+# date_columns: ['ORDERED_DATE','BOOKED_DATE', 'PICK_RELEASE_DATE']
+
+# filepath: seattle-weather.csv
+# input_columns: ['precipitation', 'temp_max',
+#                 'temp_min',
+#                 'wind', 'date']
+# output_column: 'weather'
+# date_columns: ['date']
+
+# filepath: bodyPerformance.csv
+# input_columns: ['age', 'gender', 'height_cm', 'weight_kg', 'body fat_%', 'diastolic',
+#                 'systolic', 'gripForce', 'sit and bend forward_cm', 'sit-ups counts',
+#                 'broad jump_cm']
+# output_column: 'class'
+# date_columns: []
+
+# filepath: car_price_prediction.csv
+# input_columns: ['Levy', 'Manufacturer', 'Model', 'Prod. year',
+#                 'Category', 'Leather interior', 'Fuel type', 'Engine volume', 'Mileage',
+#                 'Cylinders', 'Gear box type', 'Drive wheels', 'Doors', 'Wheel', 'Color',
+#                 'Airbags']
+# output_column: 'Price'
+# date_columns: []
+
+filepath: flight_price.csv
+input_columns: ['airline', 'flight', 'source_city', 'departure_time',
+                'stops', 'arrival_time', 'destination_city', 'class', 'duration',
+                'days_left']
+output_column: 'price'
+date_columns: []
+
+# filepath: healthcare-dataset-stroke-data.csv
+# input_columns: ['gender', 'age', 'hypertension', 'heart_disease', 'ever_married',
+#                 'work_type', 'Residence_type', 'avg_glucose_level', 'bmi',
+#                 'smoking_status']
+# output_column: 'stroke'
+# date_columns: []
+
+# filepath: heart_attack.csv
+# input_columns: ['age', 'sex', 'cp', 'trtbps', 'chol', 'fbs', 'restecg', 'thalachh',
+#                 'exng', 'oldpeak', 'slp', 'caa', 'thall']
+# output_column: 'output'
+# date_columns: []
+
+# filepath: heart_failure.csv
+# input_columns: ['Age', 'Sex', 'ChestPainType', 'RestingBP', 'Cholesterol', 'FastingBS',
+#                 'RestingECG', 'MaxHR', 'ExerciseAngina', 'Oldpeak', 'ST_Slope']
+# output_column: 'HeartDisease'
+# date_columns: []

@@ -1,0 +1,13 @@
+### currently neural network doesn't support hyperparameter search ###
+### will have to manually try different combinations of hyperparameters ###
+
+encoding: 'embedding'
+embedding_dimension: 'formula' # formula is round((max_int-1)**0.25))
+optimizer: 'adam'
+activation: 'relu'
+hidden_layer: 64
+
+batch_size: 64
+epochs: 100
+
+
